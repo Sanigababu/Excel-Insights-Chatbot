@@ -74,7 +74,7 @@ if uploaded_file:
 
         # Prepare LLM prompt
         llm_prompt = f"""
-You are a pandas expert. The user uploaded a CSV file. A sample is below:
+You are a pandas expert. The user uploaded an Excel file. It has already been loaded into a pandas DataFrame named `df`. A sample is shown below:
 
 {context}
 
